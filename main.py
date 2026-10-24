@@ -21,6 +21,9 @@ def main():
     download_image(image_url, filename)
     print(f"Скачан комикс: {filename}")
 
+    alt = comic_data["alt"]
+    print(f"Комментарий автора: {alt}")
+
 
 if __name__ == "__main__":
     main()
